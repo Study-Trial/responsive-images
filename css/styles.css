@@ -1,8 +1,9 @@
-body {
-    background: url(../images/constellation.svg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-attachment: fixed;
-
+.meal {
+    clip-path: polygon(0% 20%, 60% 20%, 60% 0%, 100% 50%, 60% 100%, 60% 80%, 0% 80%);
 }
 
+div {
+    background-color: aquamarine;
+    width: 100vw;
+    height: 100vh;
+}
