@@ -1,9 +1,9 @@
 .meal {
-    clip-path: polygon(0% 20%, 60% 20%, 60% 0%, 100% 50%, 60% 100%, 60% 80%, 0% 80%);
+    filter: blur(10px);
 }
 
-div {
-    background-color: aquamarine;
-    width: 100vw;
-    height: 100vh;
+.meal:active {
+    /* filter: grayscale(70%); */
+    filter: blur(0px);
+
 }
