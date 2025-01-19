@@ -6,6 +6,35 @@ picture {
     text-align:center;
     font-size: 0px;
 }
-picture>img {
-    width: 400px;
+
+
+@media screen and (max-width: 500px){
+    picture>img {
+        border: 5px, solid, red;
+        border-radius: 20px;
+    }
+}
+
+@media screen and (min-width: 501px) and (max-width: 850px){
+    picture>img {
+        display:block;
+    }
+}
+@media screen and (min-width: 851px) and (max-width: 1200px){
+    body {
+        margin: 0px 0px 0px 1px;
+    }
+    picture {
+        display:inline;
+    }
+}
+@media screen and (min-width: 1201px){
+    picture {
+        display:inline;
+    }
+    img {
+        display: inline;
+        width: 30.5%;
+        border: 5px, solid, red;
+    }
 }
